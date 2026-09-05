@@ -1,0 +1,8 @@
+{
+  "name": "nanoclaw",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "install": "corepack enable && corepack prepare pnpm@10.34.5 --activate && HUSKY=0 pnpm install --frozen-lockfile"
+}
